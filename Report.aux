@@ -2,21 +2,58 @@
 \providecommand\hyper@newdestlabel[2]{}
 \providecommand\HyField@AuxAddToFields[1]{}
 \providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{russell2010aima}
+\citation{genesereth1994kbagents}
+\citation{zhang2021hybrid}
+\citation{kulkarni2016hierarchical}
 \@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2}System Overview}{1}{section.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Environment Structure}{1}{subsection.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Core Logical Constraints}{2}{subsection.2.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3}Agent Design}{2}{section.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Logic and Policy}{2}{subsection.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}DFS Strategy}{2}{subsection.3.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4}Implementation Details}{3}{section.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Environment Class}{3}{subsection.4.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Agent Class}{3}{subsection.4.2}\protected@file@percent }
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {1}Suitability Evaluation}{3}{lstlisting.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Execution Entry}{3}{subsection.4.3}\protected@file@percent }
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {2}Main Agent Execution}{3}{lstlisting.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5}Visualization}{3}{section.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion}{3}{section.6}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Start Simulation Snapshot}}{4}{figure.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces End Simulation Snapshot}}{4}{figure.2}\protected@file@percent }
-\gdef \@abspage@last{4}
+\newlabel{sec:intro}{{1}{1}{Introduction}{section.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{2}{section.2}\protected@file@percent }
+\newlabel{sec:related}{{2}{2}{Related Work}{section.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Environment Specification}{2}{section.3}\protected@file@percent }
+\newlabel{sec:environment}{{3}{2}{Environment Specification}{section.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}State Space}{2}{subsection.3.1}\protected@file@percent }
+\newlabel{eq:exclusivity}{{1}{2}{State Space}{equation.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Agent Dynamics}{2}{subsection.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Game Termination}{2}{subsection.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Formal Logic Model}{2}{section.4}\protected@file@percent }
+\newlabel{sec:logic}{{4}{2}{Formal Logic Model}{section.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Language}{2}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Knowledge Base}{2}{subsection.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Suitability Inference}{2}{subsection.4.3}\protected@file@percent }
+\newlabel{eq:suitability}{{2}{2}{Suitability Inference}{equation.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Agent Architecture}{3}{section.5}\protected@file@percent }
+\newlabel{sec:agent}{{5}{3}{Agent Architecture}{section.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Algorithm}{3}{subsection.5.1}\protected@file@percent }
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces DFS with Logical Pruning}}{3}{algorithm.1}\protected@file@percent }
+\newlabel{alg:dfs}{{1}{3}{Algorithm}{algorithm.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Complexity}{3}{subsection.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Implementation}{3}{section.6}\protected@file@percent }
+\newlabel{sec:implementation}{{6}{3}{Implementation}{section.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Code Excerpts}{3}{subsection.6.1}\protected@file@percent }
+\newlabel{lst:code}{{1}{3}{Suitability rule in \texttt {agent.py}}{lstlisting.1}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {1}Suitability rule in \texttt  {agent.py}}{3}{lstlisting.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Visualisation}{4}{subsection.6.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Start Snapshot: agent (green) about to collect the final good.}}{4}{figure.1}\protected@file@percent }
+\newlabel{fig:snapshot}{{1}{4}{Start Snapshot: agent (green) about to collect the final good}{figure.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Experimental Evaluation}{4}{section.7}\protected@file@percent }
+\newlabel{sec:experiments}{{7}{4}{Experimental Evaluation}{section.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Setup}{4}{subsection.7.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Results}{4}{subsection.7.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Discussion.}{4}{section*.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Final Snapshot: agent (green) about to collect the final good.}}{5}{figure.2}\protected@file@percent }
+\newlabel{fig:snapshot}{{2}{5}{Final Snapshot: agent (green) about to collect the final good}{figure.2}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Performance over 300 random instances.}}{5}{table.1}\protected@file@percent }
+\newlabel{tab:results}{{1}{5}{Performance over 300 random instances}{table.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {8}Limitations \& Future Work}{5}{section.8}\protected@file@percent }
+\newlabel{sec:future}{{8}{5}{Limitations \& Future Work}{section.8}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {9}Reproducibility}{5}{section.9}\protected@file@percent }
+\newlabel{sec:reproduce}{{9}{5}{Reproducibility}{section.9}{}}
+\bibstyle{plain}
+\bibcite{russell2010aima}{1}
+\bibcite{genesereth1994kbagents}{2}
+\bibcite{zhang2021hybrid}{3}
+\bibcite{kulkarni2016hierarchical}{4}
+\@writefile{toc}{\contentsline {section}{\numberline {10}Conclusion}{6}{section.10}\protected@file@percent }
+\newlabel{sec:conclusion}{{10}{6}{Conclusion}{section.10}{}}
+\gdef \@abspage@last{6}
