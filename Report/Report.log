@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  12 MAY 2025 14:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  15 MAY 2025 15:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -498,7 +498,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 36.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (3.54842pt too wide) in paragraph at lines 82--89
+Overfull \hbox (3.54842pt too wide) in paragraph at lines 86--93
 \OT1/cmr/m/n/12 Logic-based ex-plo-ration de-scends from the Wum-pus World and 
 later Knowledge-Based Agents
  []
@@ -509,7 +509,16 @@ later Knowledge-Based Agents
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-Overfull \hbox (26.72304pt too wide) in paragraph at lines 103--107
+
+LaTeX Warning: Citation `gneiting2013hierarchical' on page 2 undefined on input
+ line 98.
+
+
+LaTeX Warning: Citation `amodei2016concrete' on page 2 undefined on input line 
+101.
+
+
+Overfull \hbox (26.72304pt too wide) in paragraph at lines 126--130
 \OT1/cmr/m/n/12 Allowed ac-tions are $\OMS/cmsy/m/n/12 f[]\OML/cmm/m/it/12 ; []
 ; []; []\OMS/cmsy/m/n/12 g$\OT1/cmr/m/n/12 , mod-elled as vec-tors $(^^A\OML/cm
 m/m/it/12 y; \OT1/cmr/m/n/12 ^^A\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 ) \OMS/cmsy/m
@@ -519,47 +528,40 @@ MS/cmsy/m/n/12 ^^F\OT1/cmr/m/n/12 1)\OMS/cmsy/m/n/12 g$\OT1/cmr/m/n/12 .
  []
 
 
-LaTeX Warning: Reference `fig:loop' on page 2 undefined on input line 145.
-
-
 
 [2]
-Overfull \hbox (39.21368pt too wide) in paragraph at lines 149--152
+
+LaTeX Warning: Reference `fig:loop' on page 3 undefined on input line 168.
+
+
+Overfull \hbox (39.21368pt too wide) in paragraph at lines 172--175
 \OT1/cmr/m/n/12 Algorithm [][]1[][] de-tails DFS with back-track-ing; the $[](\
 OMS/cmsy/m/n/12 ^^A\OT1/cmr/m/n/12 )$ pred-i-cate is im-ple-mented in \OT1/cmtt
 /m/n/12 FOL[]Agent.dfs()
  []
 
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 154.
+put line 177.
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 182.
+nput line 205.
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 183.
-<start.png, id=136, 526.96875pt x 529.98pt>
-File: start.png Graphic file (type png)
-<use start.png>
-Package pdftex.def Info: start.png  used on input line 197.
-(pdftex.def)             Requested size: 258.36668pt x 259.8542pt.
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 206.
 
 
 [3]
-<end.png, id=151, 520.94624pt x 527.9725pt>
+<start.png, id=175, 526.96875pt x 529.98pt>
+File: start.png Graphic file (type png)
+<use start.png>
+Package pdftex.def Info: start.png  used on input line 220.
+(pdftex.def)             Requested size: 258.36668pt x 259.8542pt.
+<end.png, id=177, 520.94624pt x 527.9725pt>
 File: end.png Graphic file (type png)
 <use end.png>
-Package pdftex.def Info: end.png  used on input line 204.
+Package pdftex.def Info: end.png  used on input line 227.
 (pdftex.def)             Requested size: 258.36668pt x 261.85071pt.
 
 
-[4
-pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.246     \item \textbf
-                       {Dynamic Hazards.}  Current holes are static; adding ...
- <./start.png>]
-(/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
+[4] (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -567,20 +569,37 @@ File: lstlang1.sty 2024/09/23 1.10c listings language file
 )
 
 [5
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.260 \end{lstlisting}
+l.283 \end{lstlisting}
                       
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.260 \end{lstlisting}
-                       <./end.png>]
+l.283 \end{lstlisting}
+                       <./start.png>]
+Overfull \hbox (32.68282pt too wide) in paragraph at lines 297--301
+\OT1/cmr/m/n/12 The pro-posed hy-brid agent out-per-forms purely learning[]base
+d or heuris-tic base-lines in safety[]critical
+ []
 
-[6] (./Report.aux)
+
+
+[6
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.315     \item \textbf
+                       {Planetary Protection.} Avoiding contamination of pot...
+ <./end.png>]
+
+[7]
+
+[8] (./Report.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -593,35 +612,38 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `Report.out' has not changed.
-(rerunfilecheck)             Checksum: C285F74B55B40E87AEB06E5504426165;2741.
+(rerunfilecheck)             Checksum: 8F1C8DA2A8C7FD6EB928DCF27E6DD27E;4324.
  ) 
 Here is how much of TeX's memory you used:
- 13401 strings out of 473190
- 199875 string characters out of 5715801
- 816905 words of memory out of 5000000
- 36432 multiletter control sequences out of 15000+600000
- 570778 words of font info for 82 fonts, out of 8000000 for 9000
+ 13445 strings out of 473190
+ 200403 string characters out of 5715801
+ 820461 words of memory out of 5000000
+ 36453 multiletter control sequences out of 15000+600000
+ 571282 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,271b,1306s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,79p,287b,2127s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb><
 /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
 usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
-sr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
-/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
-ocal/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loc
-al/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/
-texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
-exlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/te
-xlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/tex
-live/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texl
-ive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on Report.pdf (6 pages, 1384111 bytes).
+sr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
+/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
+ocal/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
+al/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local
+/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/te
+xlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
+live/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texl
+ive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texli
+ve/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texliv
+e/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/te
+xlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on Report.pdf (8 pages, 1413558 bytes).
 PDF statistics:
- 260 PDF objects out of 1000 (max. 8388607)
- 215 compressed objects within 3 object streams
- 60 named destinations out of 1000 (max. 500000)
- 187 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 333 PDF objects out of 1000 (max. 8388607)
+ 280 compressed objects within 3 object streams
+ 81 named destinations out of 1000 (max. 500000)
+ 251 words of extra memory for PDF output out of 10000 (max. 10000000)
 
